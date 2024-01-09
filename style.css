@@ -1,0 +1,797 @@
+header, section, footer {
+    width: 1200px;;
+    margin-left: auto;
+    margin-right: auto;
+}
+header {
+    height: 100px;
+    background-color: antiquewhite;
+   
+}
+#presentacion {
+    width: 250px;
+    height: 80px;
+    background-color: ghostwhite;
+    float: left;
+    margin: 20px;
+    margin-top: 10px;
+    background: linear-gradient(rgb(143, 89, 127), rgb(247, 172, 172));
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    text-align: center;
+    color: aliceblue;
+}
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color:aliceblue;
+    font-size: xx-large;
+}
+#cajadebotonera {
+    width: 750px;
+    height: 90px;
+    background-color: rgb(177, 97, 166);
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+    border-radius: 10px 20px;
+}
+ul{
+    margin: 10px;
+    padding: 10px;
+}
+li{
+    display: inline;
+    list-style-type: none;
+    
+}
+li a {
+    display: inline;
+    width: 300px;
+    height: 100px;
+    border: 5px  transparent;
+    color:aliceblue;
+    font-weight: bold;
+    text-align: center;
+    text-decoration:double;
+    line-height: 50px;
+    background-color: transparent;
+    margin-left: 20px;
+    font-size: large;
+}
+#quienessomos{
+    height: 600px;
+    background-color: rgb(211, 188, 188);
+}
+#caja1 {
+    width: 300px;
+    height: 400px;
+    background-color: rgb(201, 144, 163);
+    float: right;
+    margin:20px;
+    overflow:hidden;
+    display:flex;
+    border-radius: 10px 20px;
+    border: 10px solid transparent;
+    border-image: url(imagen3.jpg);
+}
+
+#caja2 { 
+    width: 200px;
+    height: 400px;
+    background-color: rgb(142, 97, 184);
+    float: right;
+    margin: 20px;
+    margin-block-start: 60px;
+    background: linear-gradient(pink,aliceblue, blueviolet)
+
+}
+h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    text-align: center;
+    color:palevioletred;
+    margin: 30px;
+    margin-top: 50px;
+    font-size: x-large;
+}
+#caja3 {
+    width: 200px;
+    height: 400px;
+    background-color: rgb(151, 62, 99);
+    float: right;
+    margin: 20px;
+    border-radius: 20px 15px;
+}
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: antiquewhite;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: blanchedalmond;
+}
+#caja4 {
+    width:300px;
+    height:500px;
+    background-color: papayawhip;
+    float:left;
+    margin:30px;
+    overflow:hidden;
+    display:flex;
+
+}
+#tecnicas {
+    height: 800px;
+    background-color: plum;
+}
+#caja5 {
+    width: 300px;
+    height: 350px;
+    
+    float: left;
+    margin: 80px;
+    margin-left: 120px;
+}
+#caja6 {
+    width: 500px;
+    height: 390px;
+    background-color: mediumvioletred;
+    float: left;
+    margin: 80px;
+    margin-left: 120px;
+   
+}
+#caja7 {
+    width: 400px;
+    height: 100px;
+    background-color: rgb(160, 65, 139);
+    float: left;
+    margin: 10px;
+    margin-left: 50px;
+}
+#caja8 {
+    width: 500px; 
+    height: 100px;
+    float: right;
+    margin-right: 100px;
+}
+#img1 {
+    width: 400px;
+    height: 220px;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+    display: flex;
+    margin-top: 10px;
+}
+.ajustar_ancho {
+    width: 100%;
+}
+#img2 {
+    width: 150px;
+    height: 100px;
+    float: left;
+    display: flex;
+}
+#texto1 {
+    width: 480px;
+    height: 100px;
+    background-color: transparent;
+    float: left;
+    margin-top: 10px;
+   
+}
+.zentagle{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    padding: 0;
+    color: black;
+    background-color: antiquewhite;
+    font-weight: bold;
+}
+.p1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:15px;
+}
+
+#texto2 {
+    width: 380px;
+    height: 80px;
+}
+.beneficios {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    margin: 10px;
+}
+#texto3, #texto3a {
+    width: 350px;
+    height: 100px;
+    float: right;
+}
+.colores {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    color: black;
+
+}
+#feedback {
+    height: 800px;
+    background-color: rgb(236, 234, 234);
+}
+#caja9 {
+    width: 500px;
+    height:350px;
+    
+    float: left;
+    margin: 60px;
+}
+#caja10 {
+    width: 290px;
+    height: 300px;
+    background-color: beige;
+    float: right;
+    margin-right: 80px;
+    margin-top: 80px;
+}
+#caja11 {
+    width: 900px ;
+    height: 250px ;
+    background-color: rgb(143, 89, 98);
+    float: right;
+    margin-right: 100px;
+}
+#caja12 {
+    width: 200px;
+    height: 80px;
+    background-color: rosybrown;
+    float: left;
+    margin: 20px;
+}
+#caja13 {
+    width: 400px;
+    height: 80px;
+    background-color: rgb(202, 194, 235);
+    float: left;
+    margin: 20px;
+    border-radius: 5px 10px 15px 20px;
+}
+#caja14 {
+    width: 300px;
+    height: 80px ;
+    background-color: rgb(173, 175, 209);
+    float: right;
+    margin: 30px;
+    overflow:hidden;
+    display: flex;
+    border-radius: 10px 20px 25px 30px;
+}
+#contacto {
+    height: 200px;
+    background-color: blueviolet;
+    background: linear-gradient(rgb(161, 134, 187),rgb(182, 177, 185));
+}
+h5{
+    font-family:'Times New Roman', Times, serif;
+    font-size: x-large;
+    color: rgb(106, 80, 177);
+    text-align: center;
+    margin-top: auto;
+    background-color: rgb(234, 219, 248);
+}
+#enlace {
+    width: 900px;
+    height: 30px;
+    background-color: aqua;
+    float: left;
+    margin-left: 150px;
+    overflow: hidden;
+    display: flex;
+    
+}
+h4{
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: auto;
+
+}
+h6{
+  margin: auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: x-large;
+}
+#bootstrap {
+    height: 1000px;
+}
+
+#modulo2{
+    background-color: azure;
+}
+#col2-mod1{
+    background-color: transparent;
+}
+#col3-mod1{
+    background-color: transparent;
+}
+
+input, textarea{
+    margin-top: 5px;
+}
+
+.boton {
+    background-color: aliceblue;
+}
+.card-text {
+    background-color: rgb(166, 166, 209);
+}
+.card-img {
+    width: 400px;
+    height: 250px;
+}
+#img10, #img9, #img16, #img8, #img21, #img18 {
+    margin-top: 20px;
+}
+
+
+/* adaptacion a pantallas de 600 a 1200px */
+@media all and (min-width: 600px) and (max-width: 1200px){
+
+    header, section, footer {
+        width: 580px;;
+    }
+    header {
+        height: 100px;
+    }
+    #presentacion {
+        width: 250px;
+        height: 20px;
+        float: none;
+    }
+    h1 {
+        font-size: medium;
+        text-align: center;
+    }
+    #cajadebotonera {
+        width: 580px;
+        height: 40px;
+        float: right;
+        margin-right: 0px;
+        margin-top: 0px;
+        border-radius: 10px 20px;
+    }
+    ul{
+        margin: 0px;
+        padding: 0px;
+    }
+    li{
+        display: inline;
+        list-style-type: none;
+        
+    }
+    li a {
+        display: inline block;
+        width: 580px;
+        height: 100px;
+        text-align: center;
+        line-height: 20px;
+        margin-left: 20px;
+        font-size: large;
+    }
+    #quienessomos{
+        height: 800px;
+    }
+    #caja1 {
+        width: 380px;
+        height: 200px;
+        float:none;
+        margin:0px;
+        display: flex;
+        margin-left: 80px;
+    }
+    #nosotros, #dibujo {
+        width: 360px;
+        height: 180px;
+    }
+    #caja2 { 
+        width: 250px;
+        height: 300px;
+        float: right;
+        margin: 25px;
+        margin-block-start: 25px;
+    }
+    #caja3 {
+        width: 220px;
+        height: 300px;
+        float: right;
+        margin: 20px;
+        border-radius: 20px 15px;
+    }
+    #caja4 {
+        width:360px;
+        height: 180px;
+        float:right;
+        margin:20px;
+        margin-top: auto;
+    }
+    #tecnicas {
+        height: 800px;
+    }
+    #caja5 {
+        width: 200px;
+        height: 400px;
+        float: left;
+        margin: 30px;
+        margin-left: 20px;
+    }
+    #caja6 {
+        width: 280px;
+        height: 400px;
+        float: left;
+        margin: 30px;
+        margin-left: 10px;
+    }
+    #caja7 {
+        width: 480px;
+        height: 100px;
+        background-color: rgb(160, 65, 139);
+        float: left;
+        margin-left: 50px;
+        margin-right: 20px;
+    }
+    #caja8 {
+        width: 480px; ;
+        height: 200px;
+        float: left;
+        margin-right: 0px;
+        margin-left: 50px;
+    }
+    #img1 {
+        width: 250px;
+        height: 100px;
+    }
+    .ajustar_ancho {
+        width: 100%;
+    }
+    #img2 {
+        width: 150px;
+        height: 100px;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+    #texto1 {
+        width: 280px;
+        height: 100px;
+        font-size:xx-small;
+        margin-top: 60px;
+    
+    }
+    .zentagle{
+        margin-left: 0;
+    }
+    .p1{
+        margin-top: 0;
+    }
+    #texto2 {
+        width: 480px;
+        height: 80px;
+    }
+    .beneficios {
+        margin: 12px;
+    }
+    #texto3, #texto3a {
+        width: 200px;
+        height: 100px;
+        margin-right: 10px;
+    }
+    .colores {
+        text-align: center;
+    }
+    
+    #feedback {
+        height: 800px;
+    }
+    #caja9 {
+        width: 250px;
+        height: 500px;
+        float: left;
+        margin: 20px;
+        margin-top: 10px;
+    }
+    #caja10 {
+        width: 200px;
+        height: 300px;
+        margin-top: 30px;
+    }
+    #caja11 {
+        width: 560px;
+        height: 200px ;
+        margin-right: 10px;
+        margin-top: 5px;
+    }
+    #bootstrap {
+        height: 900px;
+    }
+    
+    #modulo2{
+        background-color: azure;
+    }
+    #col2-mod1{
+        background-color: transparent;
+    }
+    #col3-mod1{
+        background-color: transparent;
+    }
+    
+    input, textarea{
+        margin-top: 5px;
+    }
+    
+    .boton {
+        background-color: aliceblue;
+    }
+    .card-text {
+        background-color: rgb(166, 166, 209);
+    }
+    .card-img {
+        width: 400px;
+        height: 250px;
+    }
+    #img10, #img9, #img16, #img8, #img21, #img18 {
+        margin-top: 20px;
+    }
+    
+    
+    #contacto {
+        height: 500px;
+    }
+    #caja12 {
+        width: 540px;
+        height: 80px;
+        margin: 30px;
+    }
+    #caja13 {
+        width: 560px;
+        height: 60px;
+        float: left;
+        margin: 10px;
+    }
+    #caja14 {
+        width: 360px;
+        height: 180px ;
+        background-color: rgb(173, 175, 209);
+        float: none;
+        margin: 100px;
+    }
+    #enlace {
+        width: 580px;
+        height: 40px;
+        float: none;
+        margin-left: 0px;
+        
+    }
+}
+/* fin media*/
+
+/* adaptacion maximo 599px */
+
+@media all and (max-width: 599px){
+    header, section, footer {
+        width: 100%;;
+    }
+    header {
+        height: 200px;
+    }
+    #presentacion {
+        width: 200px;
+        height: auto;
+    }
+    #cajadebotonera {
+        width: 100%;
+        height: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-left: auto;
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
+    ul{
+        margin: 0px;
+        padding: 0px;
+        display: block;
+        justify-content: space-around;
+      
+    }
+    li{
+        display: block;
+        list-style-type: style type none;;
+
+    }
+    li a {
+        display: inline block;
+        width: 100%;
+        height:auto;
+        font-size: medium;
+        text-align: center;
+        line-height: 30px;
+
+    }
+    #quienessomos{
+        height: auto;
+    }
+    #caja1 {
+        width: 90%;
+        height: auto;
+        float: none;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    img{
+        width: 90%;
+        height: auto;
+    }
+    
+    #caja2 { 
+        width: 100%;
+        height: auto;
+        float: none;
+        margin: auto;
+    }
+    #caja3 {
+        width: 100%;
+        height: auto;
+        float: none;
+        margin: 0;
+    }
+    #caja4 {
+        width: 100%;
+        height:auto;
+        float:none;
+        margin:0;
+        overflow:auto;
+        display:flex;
+    }
+    #tecnicas {
+        height: auto;
+    }
+    #caja5 {
+        width: 100%;
+        height: auto;
+        float: none;
+        margin: 0;
+        margin-left: 0;
+    }
+    #caja6 {
+        width: 100%;
+        height: auto;
+        float: none;
+        margin: 0;
+        margin-left: 0;
+    }
+    #caja7 {
+        width: 100%;
+        height: auto;
+        float: none;
+        margin: 0;
+        margin-left: 0;
+    }
+    #caja8 {
+        width: 100%;
+        height: auto;
+        float: none;
+        margin-right: 0;
+    }
+    #img1 {
+        width: 90%;
+        height: 280px;
+        margin-top: 5px;
+        margin-right: 0;
+        float: none;
+        margin-top: 10px;
+    }
+    .ajustar_ancho {
+        width: 80%;
+    }
+    #img2 {
+        width: 50%;
+        height: 80px;
+        float: none;
+        margin-left: 50px;
+    }
+    #texto1 {
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+    #texto2 {
+        width: 100%;
+        height:auto;
+    }
+    .zentagle {
+        margin-top: 10px;
+    }
+    .p1 {
+        margin-top: 10px;
+      
+    }
+    .beneficios {
+        margin-top: 5px;
+    }
+    #texto3, #texto3a {
+        width: auto;
+        height: auto;
+        float: right;
+       
+    }
+    .colores {
+        text-align: center;
+        color: rgb(85, 83, 168);
+        font-size: small;
+        margin: 0;
+        margin-top: 0;
+    }
+    
+    #feedback {
+        height: auto;
+    }
+    #caja9 {
+        width: 100%;
+        height:auto;
+        float: none;
+        margin: 0;
+    }
+    #caja10 {
+        width: 100%;
+        height: auto;
+        float: none;
+        margin-right: 0;
+        margin-top: 0;
+    }
+    #caja11 {
+        width: 100%;
+        height: auto;
+        float: none;
+        margin-right: 0;
+    }
+    #caja12 {
+        width: 100%;
+        height: auto;
+        float: none;
+        margin: 0;
+    }
+    #caja13 {
+        width: 100%;
+        height: auto;
+        float: nonr;
+        margin: 0;
+    }
+    #caja14 {
+        width: 100%;
+        height: auto ;
+        float: none;
+        margin: 0;
+    }
+    #contacto {
+        height: 100%;
+    }
+    #enlace {
+        width: 100%;
+        height: 30px;
+        float: none;
+        margin-left: 0;
+    }
+    h6{
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+      font-size: smaller;
+    }
+    
+}
+
+

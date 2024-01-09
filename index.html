@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto</title>
+    
+    <!--CSS Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <!--CSS Propio-->
+    <link rel="stylesheet" href="style.css">
+
+    <script src="unidad7.js"></script>
+ 
+</head>
+<body>
+    <header>
+        <div id="presentacion">
+            <h1>Dibujos Locos Art</h1>
+        </div>
+        <nav id="cajadebotonera">
+            <ul>
+                <li><a href="#quienessomos">Sobre Nosotros</a></li>
+                <li><a href="#tecnicas">Técnica</a></li>
+                <li><a href="#feedback">Feedback</a></li>
+                <li><a href="#bootstrap">Trabajos</a></li>
+                <li><a href="#contacto">Contactanos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="quienessomos">
+        <div id="caja1"> 
+          <img src="imagen2.jpeg"  id="nosotros" alt="foto">
+        </div>
+        <div id="caja2">
+          <h3>Podés elegir entre más de trescientos dibujos con distintas técnicas, gamas de colores y formas.</h3>
+        </div>
+        <div id="caja3">
+            <h2> Sobre Nosotros:</h2>
+            <p>¡Bienvenidos! Somos una pareja de docentes creadores de dibujos únicos y exclusivos que podés usar para plasmar en los elementos que más te guste, podés decorar ambientes,telas y cualquier tipo de superficies. Nosotros te vendemos del diseño, vos con él decorás lo que quieras. </p>
+
+        </div>
+        <div id="caja4">
+           <img src="imagencaja4.jpeg.jpeg"  id="dibujo">
+        </div>
+    </section>
+        
+    <section id="tecnicas">
+        <article id="caja5">
+            <script>
+                document.write("<h2>"+publicidad+"</h2>")
+            </script>
+            <script>
+                document.write("<h3>"+intereses+"</h3>")
+            </script>
+            <p>Te faltan por ver todavia: <script>document.write (unidadesrestantes)</script></p>
+            <script>
+                document.write("<h4>"+seleccion+"</h4>")
+            </script>
+            <p>Te gustaría ver nuestros dibujos en tu:<script>document.write ("<h5>"+lugar+"</h5>")</script></p>
+        </article>
+        <article id="caja6">
+            <div id="img1"> 
+                <a href="#tecnicas" onclick="mostrarCaja()"><img src="imagen5.jpg" alt="fototecnica" class="ajustar_ancho"></a>
+            </div>
+            <div id="texto1" style="display: none;">
+                <p class="zentagle"> ¿Conocés la técnica de dibujo "zentagle"?</p>
+                <p class="p1">El Zentangle es una técnica artística que consiste en la creación de imágenes a través de patrones que se repiten. Esta técnica, busca conseguir la calma en quien lo realiza o incluso en quien lo observa, sin ir más lejos su nombre, zentangle, proviene de las palabras zen, meditación y tangle, enredo.</p>
+            </div>
+        </article>
+
+        <article id="caja7">
+            <div id="texto2">
+                
+                <p class="beneficios">El zentangle aporta numerosos beneficios tales como el aumento de la autoestima, la relajación, el alivio del estrés, el desarrollo de la creatividad y aumenta la capacidad de concentración y atención.</p>
+            </div>
+        </article>
+        <aside id="caja8">
+            <div id="img2">
+                <img src="imagen6.jpg" alt="muestra" class="ajustar_ancho">
+            </div>
+            <div id="texto3" style="display: none;">
+                <h5>¡Genial! ya conocés nuestro material</h5>
+            </div >
+            <div id="texto3a" style="display: none;">
+                <p class="colores">No solo verás ésta técnica en cada dibujo, también verás infinitas combinaciones de colores.</p>
+            </div>
+        </aside>
+    </section>
+    <section id="feedback">
+        <div id="caja9">
+            <h3>Tus dudas y opiniones nos interesan</h3>
+            <form action="trabajos">
+                <input type="text"required class="form-control" placeholder="Nombre" minlength="3" maxlength="35">
+                <label for="adquiridos" > ¿Has adquirido antes alguno de nuestros productos?</label>
+                <select>
+                    <option value="opcion1">si</option>
+                    <option value="opcion2">no</option>
+                </select>
+                <label for="preferencias">¿Tenés alguna preferencia de estilos de dibujos?</label>
+                <select class="form-control">
+                    <option value="opcion0"></option>
+                    <option value="opcion1">colores primarios</option>
+                    <option value="opcion2">colores secundarios</option>
+                    <option value="opcion3">blanco y negro</option>
+                    <option value="opcion4">rostros</option>
+                    <option value="opcion5">abstractos</option>
+                </select>
+                <textarea rows="dudas" class="form-control" placeholder="tenemos amplitud de trabajos y trabajamos con empresas locales, dejá tus inquietudes y te responderemos" required maxlength="300"></textarea>
+                <input type="email" class="form-control" placeholder="correo electronico" required minlength="5" maxlength="40">
+                <input type="submit" value="consultar" class="btn boton">
+            </form>
+        </div>
+        <div id="caja10">
+            <div class="card" >
+                <img src="imagencard.jpg" class="card-img-top" alt="envios">
+                <div class="card-body">
+                  <h5 class="card-title">Hacemos envios a todo el pais</h5>
+                  <p class="card-text">Somos de la ciudad de Mendoza,Argentina.</p>
+                </div>
+              </div>
+        </div>
+        <div id="caja11">
+            <div class="card bg-dark text-white">
+                <img src="caja11.jpg" class="card-img">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">No te pongas triste</h5>
+                  <p class="card-text">Hacemos nuestros dibujos donde se te ocurra, vos creas con nosotros</p>
+                </div>
+              </div>
+        </div>
+    </section>
+    <section id="bootstrap">
+        <div class="container-fluid" id="contenedorBT">
+            <div class="row" id="modulo1">
+                <div class="col-xl-2 col-md-4" id="col1-mod1">
+                  <h3>Adelantos</h3>
+                <img src="imagen17.jpeg" class="img-fluid" id="img17">
+               
+                <img src="imagen21.jpeg" class="img-fluid" id="img21">
+                </div>
+                <div class="col-xl-6 col-md-5" id="col2-mod1">                    
+                  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="imagen7.jpeg" class="d-block w-100" alt="imagenremera">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="imagen11.jpeg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="imagen12.jpeg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="imagen13.jpeg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="imagen14.jpeg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="imagen15.jpeg" class="d-block w-100" alt="...">
+                        </div>
+                      
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Siguiente</span>
+                      </button>
+                    </div>
+                      <!--Fin Carousel-->
+                </div>
+                <div class="col-xl-4 col-md-3" id="col3-mod1">
+                    <!--Inicio Accordion-->
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              Te contamos un poco más
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong>Nuestros dibujos no son a pedido.</strong> Las técnicas aplicadas en lo dibujos forman parte de un disfrute, relacionado con lo emocional y es un arte que no queremos limitar, ya que perdería la finalidad de la aplicación del zentagle. Sin embargo hay una gran variedad de temáticas para que puedas elegir la que más te guste.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              Materiales sobre los que hemos trabajado
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong>No le pongas limite a tu imaginación.</strong> Los dibujos pueden realizarse sobre madera, papel autodhesivo y fotográfico, paneles de MDF, ploters,sublimados, goma y lona fotográfica.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              A tener en cuenta
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong>Depende de la superficie que elijas y los materiales que se utilicen, pueden variar la intensidad o coloración del dibujo.</strong>De todas maneras si sucediera,te lo informaremos antes de realizar el trabajo.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                  <!--Fin Accordion-->
+
+                </div>
+            </div>
+            <div class="row" id="modulo2">
+                <div class="col-xl-2 col-md-4" id="col1-mod2">
+                  <img src="imagen9.jpeg" class="img-fluid" id="img9">
+                  <img src="imagen8.jpeg" class="img-fluid" id="img8">
+
+                </div>
+                <div class="col-xl-4 col-md-2" id="col2-mod2">
+                  <img src="imagen10.jpeg"  class="img-fluid" id="img10">
+                </div>
+                <div class="col-xl-3 offset-xl-1 col-md-4" id="col3-mod2">
+                  <img src="imagen16.jpeg" class="img-fluid" id="img16">
+                </div>
+                <div class="col-xl-2 col-md-2" id="col4-mod2">
+                  
+                  <h5>Le estamos poniendo realismo...</h5>
+                 <img src="imagen19.jpeg" class="img-fluid">
+                 <img src="imagen18 (1).jpeg" class="img-fluid" id="img18">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="contacto">
+        <div id="caja12">
+            <h4>Contactanos</h4>
+        </div>
+        <div id="caja13">
+            <h5>Dejanos un mensaje privado, te responderemos a la brevedad</h5>
+        </div>
+        <div id="caja14">
+            <img src="imagen4.jpg" alt="dibujo naturaleza">
+        </div>
+        <nav id="enlace">
+            <a href="https://www.instagram.com/dibujoslocosart/" target= "_blank">
+                <h6>https://www.instagram.com/dibujoslocosart/</h6>
+            </a>
+        </nav>
+    </footer>
+    <!--JS Propio-->
+<script src="unidad8.js"></script>
+    <!--JS Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  
+</body>
+</html>
